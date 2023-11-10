@@ -1,9 +1,9 @@
 const getElement = (identifier = "") => document.querySelector(identifier);
 
 function verifySubmission() {
-  let subjectElement = getElement("subject").value;
-  let messageElement = getElement("message").value;
-  let nameElement = getElement("name").value;
+  let subjectElement = getElement("#subject").value;
+  let messageElement = getElement("#message").value;
+  let nameElement = getElement("#name").value;
 
   if (subjectElement && messageElement && nameElement) {
     let body = encodeURIComponent("From: " + nameElement + "\n" + messageElement);
