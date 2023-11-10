@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" href="styles.css"/>
+    <head>
+        <meta charset="utf-8">
+        <title>Wiellona Darlene</title>
+    </head>
+    <body>
+        <div class="container">
+            <span class="big-circle"></span>
+            <span class="right-circle"></span>
+            <span class="left-circle"></span>
+        </div>
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <div class="main">
+            <div class="grid-container">
+                <div class="copy-container">
+                    <h2>Hi! I'm <name>Wiellona</name></h2>
+                    <h4><span>Welcome to my personal space</span></h4>
+                    <a class="linkedin-icon" href="www.linkedin.com/in/wiellonasaragih">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a class="instagram-icon" href="wwww.instagram/wiellonasaragih">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a class="github-icon" href="https://github.com/wiellona">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <div class="contact-form">
+                    <h3 class="contact-title">Contact me</h3>
+                    <p>Name</p>
+                    <input type="text" id="name" placeholder="Your name" required>
+                    <p>Subject</p>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <p>Message</p>
+                    <textarea id="message" rows="6" placeholder="Send me messages"></textarea>
+                    <button id="sendButton" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+       <script src="script.js"></script>
+    </body>
+</html>
