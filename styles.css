@@ -6,52 +6,6 @@ body {
     align-items: center;
 }
 
-.big-circle {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background: linear-gradient(to bottom, #023653, #88b4be);
-    bottom: 50%;
-    right: 50%;
-    transform: translate(-40%, 38%);
-}
-
-.big-circle:after {
-    content: "";
-    position: absolute;
-    width: 360px;
-    height: 360px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    top: calc(50% - 180px);
-    left: calc(50% - 180px);
-}
-
-.right-circle {
-    content: "";
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    border: 22px solid #023653;
-    border-radius: 50%;
-    bottom: -77px;
-    right: 64px;
-    opacity: 0.64;
-}
-
-.left-circle {
-    content: "";
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    border: 22px solid #023653;
-    border-radius: 50%;
-    bottom: -477px;
-    left: 72px;
-    opacity: 0.64;
-}
-
 .copy-container {
     font-size: 28px;
 }
